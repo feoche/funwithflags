@@ -8,7 +8,7 @@ angular.module('myApp', ['ngRoute'])
 
 		var routeConfig = {
 			controller: 'AppCtrl as vm',
-			templateUrl: '/partials/app-index.html'
+			templateUrl: './partials/app-index.html'
 		};
 
 		$routeProvider
