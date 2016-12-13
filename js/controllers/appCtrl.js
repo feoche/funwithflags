@@ -26,11 +26,11 @@ angular.module('myApp')
         vm.loading = 0;
       }
       else {
-        $http.get('//www.geognos.com/api/en/countries/info/all.json').then(function (data) {
+        $http.get('http://www.geognos.com/api/en/countries/info/all.json').then(function (data) {
           var res = data && data.data && data.data.Results;
           angular.forEach(res, function (country) {
             vm.loading++;
-            $http.get('//www.geognos.com/api/en/countries/flag/' + (country && country.CountryCodes && country.CountryCodes.iso2) + '.png', {responseType: "blob"}).success(function (data, status, headers, config) {
+            $http.get('http://www.geognos.com/api/en/countries/flag/' + (country && country.CountryCodes && country.CountryCodes.iso2) + '.png', {responseType: "blob"}).success(function (data, status, headers, config) {
               var fr = new FileReader();
               fr.onload = function () {
                 var res = {
@@ -40,7 +40,7 @@ angular.module('myApp')
                   base64: fr.result
                 };
 
-                var name = (country && country.CountryCodes && country.CountryCodes.iso2) && ('//flags.fmcdn.net/data/flags/normal/' + country.CountryCodes.iso2.toLowerCase() + '.png');
+                var name = (country && country.CountryCodes && country.CountryCodes.iso2) && ('http://flags.fmcdn.net/data/flags/normal/' + country.CountryCodes.iso2.toLowerCase() + '.png');
                 $http.get(name).success(function () {
                   res.flag = name;
                 }).error(function () {
