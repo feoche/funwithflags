@@ -26,7 +26,7 @@ angular.module('myApp')
         vm.loading = 0;
       }
       else {
-        $http.get('http://www.geognos.com/api/en/countries/info/all.json').then(function (data) {
+        $http.get('//www.geognos.com/api/en/countries/info/all.json').then(function (data) {
           var res = data && data.data && data.data.Results;
           angular.forEach(res, function (country) {
             vm.loading++;
