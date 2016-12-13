@@ -109,7 +109,7 @@ gulp.task('build-js', ['clean'], function() {
     return b.bundle()
         .pipe(source('bundle.js'))
         .pipe(buffer())
-        // .pipe(cachebust.resources())
+        .pipe(cachebust.resources())
         .pipe(sourcemaps.init({loadMaps: true}))
         // .pipe(uglify())
         .on('error', gutil.log)
