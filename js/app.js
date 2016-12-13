@@ -1,8 +1,9 @@
 /*global angular */
 angular = require('angular');
 require('angular-route');
+require('../dist/templateCachePartials');
 
-angular.module('myApp', ['ngRoute'])
+angular.module('myApp', ['ngRoute', 'myAppPartials'])
 	.config(function ($routeProvider) {
 		'use strict';
 
