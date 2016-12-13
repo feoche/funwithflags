@@ -53,7 +53,7 @@ gulp.task('build-css', ['clean'], function() {
     return gulp.src('./styles/*')
         .pipe(sourcemaps.init())
         .pipe(sass())
-        // .pipe(cachebust.resources())
+        .pipe(cachebust.resources())
         .pipe(sourcemaps.write('./maps'))
         .pipe(gulp.dest('./dist'));
 });
@@ -73,7 +73,7 @@ gulp.task('build-template-cache', ['clean'], function() {
     return gulp.src("./partials/*.html")
         .pipe(ngHtml2Js({
             moduleName: "appPartials",
-            prefix: "./partials/"
+            prefix: "/partials/"
         }))
         .pipe(concat("templateCachePartials.js"))
         .pipe(gulp.dest("./dist"));
@@ -125,7 +125,7 @@ gulp.task('build-js', ['clean'], function() {
 
 gulp.task('build', [ 'clean','build-css','build-template-cache', 'jshint', 'build-js'], function() {
     return gulp.src('index.html')
-        // .pipe(cachebust.references())
+        .pipe(cachebust.references())
         .pipe(gulp.dest('dist'));
 });
 

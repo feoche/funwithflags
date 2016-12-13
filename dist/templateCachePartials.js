@@ -5,7 +5,7 @@ try {
   module = angular.module('appPartials', []);
 }
 module.run(['$templateCache', function($templateCache) {
-  $templateCache.put('./partials/app-index.html',
+  $templateCache.put('/partials/app-index.html',
     '<div class="flags disabled">\n' +
     '        <span class="flag" ng-repeat="flag in vm.flags">\n' +
     '            <img ng-src="{{flag.flag}}" image-on-load>\n' +
