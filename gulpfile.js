@@ -53,7 +53,7 @@ gulp.task('build-css', ['clean'], function() {
     return gulp.src('./styles/*')
         .pipe(sourcemaps.init())
         .pipe(sass())
-        .pipe(cachebust.resources())
+        // .pipe(cachebust.resources())
         .pipe(sourcemaps.write('./maps'))
         .pipe(gulp.dest('./dist'));
 });
@@ -109,7 +109,7 @@ gulp.task('build-js', ['clean'], function() {
     return b.bundle()
         .pipe(source('bundle.js'))
         .pipe(buffer())
-        .pipe(cachebust.resources())
+        // .pipe(cachebust.resources())
         .pipe(sourcemaps.init({loadMaps: true}))
         // .pipe(uglify())
         .on('error', gutil.log)
@@ -125,7 +125,7 @@ gulp.task('build-js', ['clean'], function() {
 
 gulp.task('build', [ 'clean','build-css','build-template-cache', 'jshint', 'build-js'], function() {
     return gulp.src('index.html')
-        .pipe(cachebust.references())
+        // .pipe(cachebust.references())
         .pipe(gulp.dest('dist'));
 });
 
