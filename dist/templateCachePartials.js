@@ -1,8 +1,8 @@
 (function(module) {
 try {
-  module = angular.module('appPartials');
+  module = angular.module('todoPartials');
 } catch (e) {
-  module = angular.module('appPartials', []);
+  module = angular.module('todoPartials', []);
 }
 module.run(['$templateCache', function($templateCache) {
   $templateCache.put('/partials/app-index.html',
