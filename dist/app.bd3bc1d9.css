@@ -1,0 +1,560 @@
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #294A67;
+  text-align: center;
+  overflow: hidden; }
+  body .flags {
+    font-size: 0;
+    position: relative; }
+    body .flags .flag:nth-child(0) img {
+      transition: all ease-in-out 0s; }
+    body .flags .flag:nth-child(1) img {
+      transition: all ease-in-out 0.02s; }
+    body .flags .flag:nth-child(2) img {
+      transition: all ease-in-out 0.04s; }
+    body .flags .flag:nth-child(3) img {
+      transition: all ease-in-out 0.06s; }
+    body .flags .flag:nth-child(4) img {
+      transition: all ease-in-out 0.08s; }
+    body .flags .flag:nth-child(5) img {
+      transition: all ease-in-out 0.1s; }
+    body .flags .flag:nth-child(6) img {
+      transition: all ease-in-out 0.12s; }
+    body .flags .flag:nth-child(7) img {
+      transition: all ease-in-out 0.14s; }
+    body .flags .flag:nth-child(8) img {
+      transition: all ease-in-out 0.16s; }
+    body .flags .flag:nth-child(9) img {
+      transition: all ease-in-out 0.18s; }
+    body .flags .flag:nth-child(10) img {
+      transition: all ease-in-out 0.2s; }
+    body .flags .flag:nth-child(11) img {
+      transition: all ease-in-out 0.22s; }
+    body .flags .flag:nth-child(12) img {
+      transition: all ease-in-out 0.24s; }
+    body .flags .flag:nth-child(13) img {
+      transition: all ease-in-out 0.26s; }
+    body .flags .flag:nth-child(14) img {
+      transition: all ease-in-out 0.28s; }
+    body .flags .flag:nth-child(15) img {
+      transition: all ease-in-out 0.3s; }
+    body .flags .flag:nth-child(16) img {
+      transition: all ease-in-out 0.32s; }
+    body .flags .flag:nth-child(17) img {
+      transition: all ease-in-out 0.34s; }
+    body .flags .flag:nth-child(18) img {
+      transition: all ease-in-out 0.36s; }
+    body .flags .flag:nth-child(19) img {
+      transition: all ease-in-out 0.38s; }
+    body .flags .flag:nth-child(20) img {
+      transition: all ease-in-out 0.4s; }
+    body .flags .flag:nth-child(21) img {
+      transition: all ease-in-out 0.42s; }
+    body .flags .flag:nth-child(22) img {
+      transition: all ease-in-out 0.44s; }
+    body .flags .flag:nth-child(23) img {
+      transition: all ease-in-out 0.46s; }
+    body .flags .flag:nth-child(24) img {
+      transition: all ease-in-out 0.48s; }
+    body .flags .flag:nth-child(25) img {
+      transition: all ease-in-out 0.5s; }
+    body .flags .flag:nth-child(26) img {
+      transition: all ease-in-out 0.52s; }
+    body .flags .flag:nth-child(27) img {
+      transition: all ease-in-out 0.54s; }
+    body .flags .flag:nth-child(28) img {
+      transition: all ease-in-out 0.56s; }
+    body .flags .flag:nth-child(29) img {
+      transition: all ease-in-out 0.58s; }
+    body .flags .flag:nth-child(30) img {
+      transition: all ease-in-out 0.6s; }
+    body .flags .flag:nth-child(31) img {
+      transition: all ease-in-out 0.62s; }
+    body .flags .flag:nth-child(32) img {
+      transition: all ease-in-out 0.64s; }
+    body .flags .flag:nth-child(33) img {
+      transition: all ease-in-out 0.66s; }
+    body .flags .flag:nth-child(34) img {
+      transition: all ease-in-out 0.68s; }
+    body .flags .flag:nth-child(35) img {
+      transition: all ease-in-out 0.7s; }
+    body .flags .flag:nth-child(36) img {
+      transition: all ease-in-out 0.72s; }
+    body .flags .flag:nth-child(37) img {
+      transition: all ease-in-out 0.74s; }
+    body .flags .flag:nth-child(38) img {
+      transition: all ease-in-out 0.76s; }
+    body .flags .flag:nth-child(39) img {
+      transition: all ease-in-out 0.78s; }
+    body .flags .flag:nth-child(40) img {
+      transition: all ease-in-out 0.8s; }
+    body .flags .flag:nth-child(41) img {
+      transition: all ease-in-out 0.82s; }
+    body .flags .flag:nth-child(42) img {
+      transition: all ease-in-out 0.84s; }
+    body .flags .flag:nth-child(43) img {
+      transition: all ease-in-out 0.86s; }
+    body .flags .flag:nth-child(44) img {
+      transition: all ease-in-out 0.88s; }
+    body .flags .flag:nth-child(45) img {
+      transition: all ease-in-out 0.9s; }
+    body .flags .flag:nth-child(46) img {
+      transition: all ease-in-out 0.92s; }
+    body .flags .flag:nth-child(47) img {
+      transition: all ease-in-out 0.94s; }
+    body .flags .flag:nth-child(48) img {
+      transition: all ease-in-out 0.96s; }
+    body .flags .flag:nth-child(49) img {
+      transition: all ease-in-out 0.98s; }
+    body .flags .flag:nth-child(50) img {
+      transition: all ease-in-out 1s; }
+    body .flags .flag:nth-child(51) img {
+      transition: all ease-in-out 1.02s; }
+    body .flags .flag:nth-child(52) img {
+      transition: all ease-in-out 1.04s; }
+    body .flags .flag:nth-child(53) img {
+      transition: all ease-in-out 1.06s; }
+    body .flags .flag:nth-child(54) img {
+      transition: all ease-in-out 1.08s; }
+    body .flags .flag:nth-child(55) img {
+      transition: all ease-in-out 1.1s; }
+    body .flags .flag:nth-child(56) img {
+      transition: all ease-in-out 1.12s; }
+    body .flags .flag:nth-child(57) img {
+      transition: all ease-in-out 1.14s; }
+    body .flags .flag:nth-child(58) img {
+      transition: all ease-in-out 1.16s; }
+    body .flags .flag:nth-child(59) img {
+      transition: all ease-in-out 1.18s; }
+    body .flags .flag:nth-child(60) img {
+      transition: all ease-in-out 1.2s; }
+    body .flags .flag:nth-child(61) img {
+      transition: all ease-in-out 1.22s; }
+    body .flags .flag:nth-child(62) img {
+      transition: all ease-in-out 1.24s; }
+    body .flags .flag:nth-child(63) img {
+      transition: all ease-in-out 1.26s; }
+    body .flags .flag:nth-child(64) img {
+      transition: all ease-in-out 1.28s; }
+    body .flags .flag:nth-child(65) img {
+      transition: all ease-in-out 1.3s; }
+    body .flags .flag:nth-child(66) img {
+      transition: all ease-in-out 1.32s; }
+    body .flags .flag:nth-child(67) img {
+      transition: all ease-in-out 1.34s; }
+    body .flags .flag:nth-child(68) img {
+      transition: all ease-in-out 1.36s; }
+    body .flags .flag:nth-child(69) img {
+      transition: all ease-in-out 1.38s; }
+    body .flags .flag:nth-child(70) img {
+      transition: all ease-in-out 1.4s; }
+    body .flags .flag:nth-child(71) img {
+      transition: all ease-in-out 1.42s; }
+    body .flags .flag:nth-child(72) img {
+      transition: all ease-in-out 1.44s; }
+    body .flags .flag:nth-child(73) img {
+      transition: all ease-in-out 1.46s; }
+    body .flags .flag:nth-child(74) img {
+      transition: all ease-in-out 1.48s; }
+    body .flags .flag:nth-child(75) img {
+      transition: all ease-in-out 1.5s; }
+    body .flags .flag:nth-child(76) img {
+      transition: all ease-in-out 1.52s; }
+    body .flags .flag:nth-child(77) img {
+      transition: all ease-in-out 1.54s; }
+    body .flags .flag:nth-child(78) img {
+      transition: all ease-in-out 1.56s; }
+    body .flags .flag:nth-child(79) img {
+      transition: all ease-in-out 1.58s; }
+    body .flags .flag:nth-child(80) img {
+      transition: all ease-in-out 1.6s; }
+    body .flags .flag:nth-child(81) img {
+      transition: all ease-in-out 1.62s; }
+    body .flags .flag:nth-child(82) img {
+      transition: all ease-in-out 1.64s; }
+    body .flags .flag:nth-child(83) img {
+      transition: all ease-in-out 1.66s; }
+    body .flags .flag:nth-child(84) img {
+      transition: all ease-in-out 1.68s; }
+    body .flags .flag:nth-child(85) img {
+      transition: all ease-in-out 1.7s; }
+    body .flags .flag:nth-child(86) img {
+      transition: all ease-in-out 1.72s; }
+    body .flags .flag:nth-child(87) img {
+      transition: all ease-in-out 1.74s; }
+    body .flags .flag:nth-child(88) img {
+      transition: all ease-in-out 1.76s; }
+    body .flags .flag:nth-child(89) img {
+      transition: all ease-in-out 1.78s; }
+    body .flags .flag:nth-child(90) img {
+      transition: all ease-in-out 1.8s; }
+    body .flags .flag:nth-child(91) img {
+      transition: all ease-in-out 1.82s; }
+    body .flags .flag:nth-child(92) img {
+      transition: all ease-in-out 1.84s; }
+    body .flags .flag:nth-child(93) img {
+      transition: all ease-in-out 1.86s; }
+    body .flags .flag:nth-child(94) img {
+      transition: all ease-in-out 1.88s; }
+    body .flags .flag:nth-child(95) img {
+      transition: all ease-in-out 1.9s; }
+    body .flags .flag:nth-child(96) img {
+      transition: all ease-in-out 1.92s; }
+    body .flags .flag:nth-child(97) img {
+      transition: all ease-in-out 1.94s; }
+    body .flags .flag:nth-child(98) img {
+      transition: all ease-in-out 1.96s; }
+    body .flags .flag:nth-child(99) img {
+      transition: all ease-in-out 1.98s; }
+    body .flags .flag:nth-child(100) img {
+      transition: all ease-in-out 2s; }
+    body .flags .flag:nth-child(101) img {
+      transition: all ease-in-out 2.02s; }
+    body .flags .flag:nth-child(102) img {
+      transition: all ease-in-out 2.04s; }
+    body .flags .flag:nth-child(103) img {
+      transition: all ease-in-out 2.06s; }
+    body .flags .flag:nth-child(104) img {
+      transition: all ease-in-out 2.08s; }
+    body .flags .flag:nth-child(105) img {
+      transition: all ease-in-out 2.1s; }
+    body .flags .flag:nth-child(106) img {
+      transition: all ease-in-out 2.12s; }
+    body .flags .flag:nth-child(107) img {
+      transition: all ease-in-out 2.14s; }
+    body .flags .flag:nth-child(108) img {
+      transition: all ease-in-out 2.16s; }
+    body .flags .flag:nth-child(109) img {
+      transition: all ease-in-out 2.18s; }
+    body .flags .flag:nth-child(110) img {
+      transition: all ease-in-out 2.2s; }
+    body .flags .flag:nth-child(111) img {
+      transition: all ease-in-out 2.22s; }
+    body .flags .flag:nth-child(112) img {
+      transition: all ease-in-out 2.24s; }
+    body .flags .flag:nth-child(113) img {
+      transition: all ease-in-out 2.26s; }
+    body .flags .flag:nth-child(114) img {
+      transition: all ease-in-out 2.28s; }
+    body .flags .flag:nth-child(115) img {
+      transition: all ease-in-out 2.3s; }
+    body .flags .flag:nth-child(116) img {
+      transition: all ease-in-out 2.32s; }
+    body .flags .flag:nth-child(117) img {
+      transition: all ease-in-out 2.34s; }
+    body .flags .flag:nth-child(118) img {
+      transition: all ease-in-out 2.36s; }
+    body .flags .flag:nth-child(119) img {
+      transition: all ease-in-out 2.38s; }
+    body .flags .flag:nth-child(120) img {
+      transition: all ease-in-out 2.4s; }
+    body .flags .flag:nth-child(121) img {
+      transition: all ease-in-out 2.42s; }
+    body .flags .flag:nth-child(122) img {
+      transition: all ease-in-out 2.44s; }
+    body .flags .flag:nth-child(123) img {
+      transition: all ease-in-out 2.46s; }
+    body .flags .flag:nth-child(124) img {
+      transition: all ease-in-out 2.48s; }
+    body .flags .flag:nth-child(125) img {
+      transition: all ease-in-out 2.5s; }
+    body .flags .flag:nth-child(126) img {
+      transition: all ease-in-out 2.52s; }
+    body .flags .flag:nth-child(127) img {
+      transition: all ease-in-out 2.54s; }
+    body .flags .flag:nth-child(128) img {
+      transition: all ease-in-out 2.56s; }
+    body .flags .flag:nth-child(129) img {
+      transition: all ease-in-out 2.58s; }
+    body .flags .flag:nth-child(130) img {
+      transition: all ease-in-out 2.6s; }
+    body .flags .flag:nth-child(131) img {
+      transition: all ease-in-out 2.62s; }
+    body .flags .flag:nth-child(132) img {
+      transition: all ease-in-out 2.64s; }
+    body .flags .flag:nth-child(133) img {
+      transition: all ease-in-out 2.66s; }
+    body .flags .flag:nth-child(134) img {
+      transition: all ease-in-out 2.68s; }
+    body .flags .flag:nth-child(135) img {
+      transition: all ease-in-out 2.7s; }
+    body .flags .flag:nth-child(136) img {
+      transition: all ease-in-out 2.72s; }
+    body .flags .flag:nth-child(137) img {
+      transition: all ease-in-out 2.74s; }
+    body .flags .flag:nth-child(138) img {
+      transition: all ease-in-out 2.76s; }
+    body .flags .flag:nth-child(139) img {
+      transition: all ease-in-out 2.78s; }
+    body .flags .flag:nth-child(140) img {
+      transition: all ease-in-out 2.8s; }
+    body .flags .flag:nth-child(141) img {
+      transition: all ease-in-out 2.82s; }
+    body .flags .flag:nth-child(142) img {
+      transition: all ease-in-out 2.84s; }
+    body .flags .flag:nth-child(143) img {
+      transition: all ease-in-out 2.86s; }
+    body .flags .flag:nth-child(144) img {
+      transition: all ease-in-out 2.88s; }
+    body .flags .flag:nth-child(145) img {
+      transition: all ease-in-out 2.9s; }
+    body .flags .flag:nth-child(146) img {
+      transition: all ease-in-out 2.92s; }
+    body .flags .flag:nth-child(147) img {
+      transition: all ease-in-out 2.94s; }
+    body .flags .flag:nth-child(148) img {
+      transition: all ease-in-out 2.96s; }
+    body .flags .flag:nth-child(149) img {
+      transition: all ease-in-out 2.98s; }
+    body .flags .flag:nth-child(150) img {
+      transition: all ease-in-out 3s; }
+    body .flags .flag:nth-child(151) img {
+      transition: all ease-in-out 3.02s; }
+    body .flags .flag:nth-child(152) img {
+      transition: all ease-in-out 3.04s; }
+    body .flags .flag:nth-child(153) img {
+      transition: all ease-in-out 3.06s; }
+    body .flags .flag:nth-child(154) img {
+      transition: all ease-in-out 3.08s; }
+    body .flags .flag:nth-child(155) img {
+      transition: all ease-in-out 3.1s; }
+    body .flags .flag:nth-child(156) img {
+      transition: all ease-in-out 3.12s; }
+    body .flags .flag:nth-child(157) img {
+      transition: all ease-in-out 3.14s; }
+    body .flags .flag:nth-child(158) img {
+      transition: all ease-in-out 3.16s; }
+    body .flags .flag:nth-child(159) img {
+      transition: all ease-in-out 3.18s; }
+    body .flags .flag:nth-child(160) img {
+      transition: all ease-in-out 3.2s; }
+    body .flags .flag:nth-child(161) img {
+      transition: all ease-in-out 3.22s; }
+    body .flags .flag:nth-child(162) img {
+      transition: all ease-in-out 3.24s; }
+    body .flags .flag:nth-child(163) img {
+      transition: all ease-in-out 3.26s; }
+    body .flags .flag:nth-child(164) img {
+      transition: all ease-in-out 3.28s; }
+    body .flags .flag:nth-child(165) img {
+      transition: all ease-in-out 3.3s; }
+    body .flags .flag:nth-child(166) img {
+      transition: all ease-in-out 3.32s; }
+    body .flags .flag:nth-child(167) img {
+      transition: all ease-in-out 3.34s; }
+    body .flags .flag:nth-child(168) img {
+      transition: all ease-in-out 3.36s; }
+    body .flags .flag:nth-child(169) img {
+      transition: all ease-in-out 3.38s; }
+    body .flags .flag:nth-child(170) img {
+      transition: all ease-in-out 3.4s; }
+    body .flags .flag:nth-child(171) img {
+      transition: all ease-in-out 3.42s; }
+    body .flags .flag:nth-child(172) img {
+      transition: all ease-in-out 3.44s; }
+    body .flags .flag:nth-child(173) img {
+      transition: all ease-in-out 3.46s; }
+    body .flags .flag:nth-child(174) img {
+      transition: all ease-in-out 3.48s; }
+    body .flags .flag:nth-child(175) img {
+      transition: all ease-in-out 3.5s; }
+    body .flags .flag:nth-child(176) img {
+      transition: all ease-in-out 3.52s; }
+    body .flags .flag:nth-child(177) img {
+      transition: all ease-in-out 3.54s; }
+    body .flags .flag:nth-child(178) img {
+      transition: all ease-in-out 3.56s; }
+    body .flags .flag:nth-child(179) img {
+      transition: all ease-in-out 3.58s; }
+    body .flags .flag:nth-child(180) img {
+      transition: all ease-in-out 3.6s; }
+    body .flags .flag:nth-child(181) img {
+      transition: all ease-in-out 3.62s; }
+    body .flags .flag:nth-child(182) img {
+      transition: all ease-in-out 3.64s; }
+    body .flags .flag:nth-child(183) img {
+      transition: all ease-in-out 3.66s; }
+    body .flags .flag:nth-child(184) img {
+      transition: all ease-in-out 3.68s; }
+    body .flags .flag:nth-child(185) img {
+      transition: all ease-in-out 3.7s; }
+    body .flags .flag:nth-child(186) img {
+      transition: all ease-in-out 3.72s; }
+    body .flags .flag:nth-child(187) img {
+      transition: all ease-in-out 3.74s; }
+    body .flags .flag:nth-child(188) img {
+      transition: all ease-in-out 3.76s; }
+    body .flags .flag:nth-child(189) img {
+      transition: all ease-in-out 3.78s; }
+    body .flags .flag:nth-child(190) img {
+      transition: all ease-in-out 3.8s; }
+    body .flags .flag:nth-child(191) img {
+      transition: all ease-in-out 3.82s; }
+    body .flags .flag:nth-child(192) img {
+      transition: all ease-in-out 3.84s; }
+    body .flags .flag:nth-child(193) img {
+      transition: all ease-in-out 3.86s; }
+    body .flags .flag:nth-child(194) img {
+      transition: all ease-in-out 3.88s; }
+    body .flags .flag:nth-child(195) img {
+      transition: all ease-in-out 3.9s; }
+    body .flags .flag:nth-child(196) img {
+      transition: all ease-in-out 3.92s; }
+    body .flags .flag:nth-child(197) img {
+      transition: all ease-in-out 3.94s; }
+    body .flags .flag:nth-child(198) img {
+      transition: all ease-in-out 3.96s; }
+    body .flags .flag:nth-child(199) img {
+      transition: all ease-in-out 3.98s; }
+    body .flags .flag {
+      display: inline-block;
+      position: relative;
+      width: 10vw;
+      max-height: 96px;
+      overflow: hidden; }
+      body .flags .flag img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transform: translateY(-100%); }
+        body .flags .flag img.loaded {
+          opacity: 1;
+          transform: translateY(0); }
+  body .overlay {
+    height: 100%;
+    display: table;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(20, 20, 20, 0.8);
+    z-index: 1; }
+    body .overlay .autoplay-button {
+      display: inline-block;
+      font-family: Calibri, Verdana;
+      outline: none;
+      border: none;
+      box-shadow: 2px 2px 0 black;
+      color: white;
+      padding: 1vh 1vw;
+      border-radius: 0 0 50% 0;
+      cursor: pointer;
+      transform: translate(0);
+      transition: all ease-in-out .3s;
+      font-size: 2vw;
+      background: forestgreen;
+      position: fixed;
+      top: -5px;
+      left: -5px;
+      margin: 0; }
+      body .overlay .autoplay-button:hover, body .overlay .autoplay-button:focus, body .overlay .autoplay-button:active {
+        transition: all ease-in-out .1s;
+        box-shadow: 2px 2px 2px white;
+        transform: translate(-2px, -2px); }
+      body .overlay .autoplay-button:active {
+        background: beige;
+        color: forestgreen;
+        transform: translate(2px, 2px); }
+    body .overlay .random-flag {
+      display: table-cell;
+      vertical-align: middle; }
+      body .overlay .random-flag img {
+        transition: all ease-in-out 1s;
+        width: 70vw;
+        max-width: 700px;
+        max-height: 50vh;
+        opacity: 0;
+        transform: translateY(-100%); }
+        body .overlay .random-flag img.loaded {
+          opacity: 1;
+          transform: translateY(0); }
+      body .overlay .random-flag.answer img {
+        transition: all ease-in-out .3s;
+        max-width: 600px; }
+      body .overlay .random-flag.answer .random-flag_name, body .overlay .random-flag.answer .random-flag_capital {
+        transition: all ease-in-out .3s;
+        font-size: 6vw;
+        opacity: 1; }
+      body .overlay .random-flag.answer .random-flag_capital {
+        transition: all ease-in-out .3s;
+        font-size: 4vw;
+        opacity: 1; }
+      body .overlay .random-flag.answer .continue-button {
+        transition: all ease-in-out .3s;
+        font-size: 2vw;
+        opacity: 1; }
+    body .overlay .random-flag_name, body .overlay .random-flag_capital {
+      opacity: 0;
+      color: white;
+      font-size: 0;
+      font-family: Calibri, Verdana;
+      padding-top: 5vh; }
+    body .overlay .random-flag_capital {
+      font-size: 0;
+      font-style: italic;
+      padding: 0 0 5vh; }
+    body .overlay .continue-button {
+      display: inline-block;
+      font-family: Calibri, Verdana;
+      font-size: 0;
+      outline: none;
+      border: none;
+      box-shadow: 2px 2px 0 black;
+      background: rebeccapurple;
+      color: white;
+      padding: 1vh 1vw;
+      border-radius: 10px;
+      cursor: pointer;
+      transform: translate(0);
+      opacity: 0;
+      margin: 0 20px; }
+      body .overlay .continue-button:hover, body .overlay .continue-button:focus, body .overlay .continue-button:active {
+        transition: all ease-in-out .1s;
+        box-shadow: 2px 2px 2px white;
+        transform: translate(-2px, -2px); }
+      body .overlay .continue-button:active {
+        background: beige;
+        color: rebeccapurple;
+        transform: translate(2px, 2px); }
+  body .loading {
+    transition: all ease-in-out .3s;
+    display: block;
+    text-align: center;
+    background: transparent;
+    position: fixed;
+    line-height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1; }
+    body .loading:not(.disabled) {
+      background: radial-gradient(black 50%, transparent);
+      z-index: 2; }
+      body .loading:not(.disabled) .loading-wheel {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 0 3px white;
+        border: solid 3px transparent;
+        border-left-color: white;
+        animation: rotate 1s infinite; }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=maps/app.bd3bc1d9.css.map */
