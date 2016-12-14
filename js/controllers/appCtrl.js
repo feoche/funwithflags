@@ -28,6 +28,9 @@ angular.module('myApp')
       else {
         $http.get('../json/all.json').then(function (data) {
           vm.flags = data && data.data;
+          FlagFactory.flags = vm.flags;
+          FlagFactory.SaveState();
+          vm.loading = 0;
         });
       }
     };
