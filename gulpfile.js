@@ -55,8 +55,20 @@ gulp.task('build-css', ['clean'], function() {
     .pipe(sass())
     .pipe(cachebust.resources())
     .pipe(sourcemaps.write('./maps'))
-    .pipe(gulp.dest('./dist'));
+    .pipe(gulp.dest('./dist/css'));
 });
+
+/////////////////////////////////////////////////////////////////////////////////////
+//
+// runs sass, creates css source maps
+//
+/////////////////////////////////////////////////////////////////////////////////////
+
+gulp.task('build-json', ['clean'], function() {
+  return gulp.src('json/*')
+    .pipe(gulp.dest('dist/json'));
+});
+
 
 /////////////////////////////////////////////////////////////////////////////////////
 //
@@ -144,7 +156,7 @@ gulp.task('build-js', ['clean'], function() {
 //
 /////////////////////////////////////////////////////////////////////////////////////
 
-gulp.task('build', [ 'clean', 'bower','build-css','build-template-cache', 'jshint', 'build-js'], function() {
+gulp.task('build', [ 'clean', 'bower','build-css','build-template-cache', 'jshint', 'build-js', 'build-json'], function() {
   return gulp.src('index.html')
     .pipe(cachebust.references())
     .pipe(gulp.dest('dist'));
@@ -157,7 +169,7 @@ gulp.task('build', [ 'clean', 'bower','build-css','build-template-cache', 'jshin
 /////////////////////////////////////////////////////////////////////////////////////
 
 gulp.task('watch', function() {
-  return gulp.watch(['./index.html','./partials/*.html', './styles/*.*css', './js/**/*.js'], ['build']);
+  return gulp.watch(['./index.html','./partials/*.html', './styles/*.*css', './js/**/*.js', './json/**/*.json'], ['build']);
 });
 
 /////////////////////////////////////////////////////////////////////////////////////

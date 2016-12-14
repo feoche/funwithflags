@@ -546,7 +546,6 @@ body {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        box-shadow: 0 0 3px white;
         border: solid 3px transparent;
         border-left-color: white;
         animation: rotate 1s infinite; }
@@ -557,4 +556,4 @@ body {
   to {
     transform: rotate(360deg); } }
 
-/*# sourceMappingURL=maps/app.bd3bc1d9.css.map */
+/*# sourceMappingURL=maps/app.77132cb3.css.map */

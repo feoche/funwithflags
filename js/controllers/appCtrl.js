@@ -26,36 +26,8 @@ angular.module('myApp')
         vm.loading = 0;
       }
       else {
-        $http.get('http://www.geognos.com/api/en/countries/info/all.json').then(function (data) {
-          var res = data && data.data && data.data.Results;
-          angular.forEach(res, function (country) {
-            vm.loading++;
-            $http.get('http://www.geognos.com/api/en/countries/flag/' + (country && country.CountryCodes && country.CountryCodes.iso2) + '.png', {responseType: "blob"}).success(function (data, status, headers, config) {
-              var fr = new FileReader();
-              fr.onload = function () {
-                var res = {
-                  code: country && country.CountryCodes && country.CountryCodes.iso2,
-                  capital: country && country.Capital && country.Capital.Name,
-                  name: country && country.Name,
-                  base64: fr.result
-                };
-
-                var name = (country && country.CountryCodes && country.CountryCodes.iso2) && ('http://flags.fmcdn.net/data/flags/normal/' + country.CountryCodes.iso2.toLowerCase() + '.png');
-                $http.get(name).success(function () {
-                  res.flag = name;
-                }).error(function () {
-                  res.flag = fr.result;
-                }).finally(function () {
-                  vm.flags.push(res);
-                });
-              };
-              fr.readAsDataURL(data);
-              FlagFactory.flags = vm.flags;
-              FlagFactory.SaveState();
-            }).finally(function () {
-              vm.loading = 0;
-            });
-          });
+        $http.get('../json/all.json').then(function (data) {
+          vm.flags = data && data.data;
         });
       }
     };
@@ -71,24 +43,14 @@ angular.module('myApp')
         vm.showAnswer = false;
         vm.randomFlag = vm.flags[Math.floor(Math.random() * vm.flags.length)];
         if (vm.randomFlag && vm.randomFlag.code) {
-          var name = 'http://flags.fmcdn.net/data/flags/normal/' + vm.randomFlag.code.toLowerCase() + '.png';
-          $http.get(name).success(function () {
-            vm.randomFlag.flag = name;
-          }).error(function () {
-            vm.randomFlag.flag = vm.randomFlag.flag || vm.randomFlag.base64;
-          }).finally(function () {
-            FlagFactory.flags = vm.flags;
-            FlagFactory.SaveState();
-            console.info('Country: ', vm.randomFlag && vm.randomFlag.name, ', Capital: ', vm.randomFlag && vm.randomFlag.capital);
-            vm.loading = 0;
-          });
+          vm.loading = 0;
         } else {
           vm.randomizeFlag();
         }
       }, 1000);
     };
 
-    vm.autoPlay = function() {
+    vm.autoPlay = function () {
       vm.autoPlayRun = true;
       $interval(function () {
         vm.showAnswer = true;
