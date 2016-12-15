@@ -10,9 +10,14 @@
          ng-class="{'answer': vm.showAnswer}"
          ng-click="vm.toggleShowAnswer()">
         <img ng-src="{{vm.randomFlag.flag}}" image-on-load>
-        <div class="random-flag_name" ng-bind="vm.randomFlag.name"></div>
-        <div class="random-flag_capital" ng-bind="vm.randomFlag.capital"></div>
-        <button class="continue-button" ng-click="vm.autoPlayRun = false;vm.randomizeFlag()">Continue</button>
+        <progress class="countdown" ng-show="!vm.showAnswer && vm.timer > 0" value="{{vm.timer}}" max="15">
+            <div class="progress-bar">
+                <span style="width: {{(vm.timer * 100) / 15}}%"></span>
+            </div>
+        </progress>
+        <div class="random-flag_name" ng-bind-html="vm.randomFlag.name"></div>
+        <div class="random-flag_capital" ng-bind-html="vm.randomFlag.capital"></div>
+        <button class="continue-button" ng-click="vm.nextFlag()">Continue</button>
     </div>
 </div>
 <div class="loading" ng-class="{'disabled' : !vm.loading}">

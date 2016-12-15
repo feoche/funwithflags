@@ -2,6 +2,7 @@
   "private": true,
   "dependencies": {
     "angular": "^1.3.12",
+    "angular-sanitize": "^1.6.0",
     "todomvc-app-css": "^1.0.1",
     "todomvc-common": "^1.0.0"
   },

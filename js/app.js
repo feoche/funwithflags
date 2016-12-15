@@ -1,9 +1,10 @@
 /*global angular */
 angular = require('angular');
 require('angular-route');
+require('angular-sanitize');
 require('../dist/templateCachePartials');
 
-angular.module('myApp', ['ngRoute', 'myAppPartials'])
+angular.module('myApp', ['ngRoute', 'ngSanitize', 'myAppPartials'])
 	.config(function ($routeProvider) {
 		'use strict';
 

@@ -55,6 +55,7 @@ body {
 		right: 0;
 		background: rgba(20, 20, 20, 0.8);
 		z-index: 1;
+		user-select: none;
 
 		.autoplay-button {
 			display: inline-block;
@@ -129,12 +130,52 @@ body {
 			}
 		}
 
+		.countdown {
+			-webkit-appearance: none;
+			border: none;
+			margin: -5px auto 0;
+			background-color: whiteSmoke;
+			border-radius: 3px;
+			box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5) inset;
+			color: royalblue;
+			position: relative;
+			display: block;
+			width: 70vw;
+			max-width: 700px;
+
+			&[value]::-webkit-progress-value {
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+				background-image: linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%),
+				linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)),
+				linear-gradient(left, #09c, #f44);
+				border-radius: 2px;
+				background-size: 35px 20px, 100% 100%, 100% 100%;
+			}
+
+			.progress-bar {
+				background-color: whiteSmoke;
+				border-radius: 3px;
+				box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+				width: 70vw;
+				max-width: 700px;
+
+				span {
+					background-color: royalblue;
+					border-radius: 3px;
+
+					display: block;
+					text-indent: -9999px;
+				}
+			}
+		}
+
 		.random-flag_name {
 			opacity: 0;
 			color: white;
 			font-size: 0;
 			font-family: Calibri, Verdana;
 			padding-top: 5vh;
+			text-transform: capitalize;
 		}
 
 		.random-flag_capital {
