@@ -416,7 +416,7 @@ body {
       display: inline-block;
       position: relative;
       width: 10vw;
-      max-height: 96px;
+      height: 96px;
       overflow: hidden; }
       body .flags .flag img {
         display: inline-block;
@@ -586,4 +586,4 @@ body {
   to {
     transform: rotate(360deg); } }
 
-/*# sourceMappingURL=maps/app.f2c3db57.css.map */
+/*# sourceMappingURL=maps/app.b7255661.css.map */

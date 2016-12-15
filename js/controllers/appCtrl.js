@@ -83,7 +83,7 @@ angular.module('myApp')
             vm.showAnswer = true;
             vm.autoPlayInstance = $timeout(function () {
               vm.autoPlay();
-            }, 5000);
+            }, ANSWER_TIMER);
             $interval.cancel(vm.randomizeInstance);
           }
         }, 1000);
