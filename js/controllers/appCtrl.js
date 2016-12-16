@@ -34,6 +34,7 @@ angular.module('myApp')
             FlagFactory.SaveState();
             vm.loading = 0;
           });
+
         }
       };
       vm.init();

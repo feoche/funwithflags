@@ -156,7 +156,7 @@ gulp.task('build-js', ['clean'], function() {
 //
 /////////////////////////////////////////////////////////////////////////////////////
 
-gulp.task('build', [ 'clean', 'bower','build-css','build-template-cache', 'jshint', 'build-js', 'build-json'], function() {
+gulp.task('build', [ 'clean', /*'bower',*/'build-css','build-template-cache', 'jshint', 'build-js', 'build-json'], function() {
   return gulp.src('index.html')
     .pipe(cachebust.references())
     .pipe(gulp.dest('dist'));
